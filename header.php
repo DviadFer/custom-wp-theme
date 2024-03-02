@@ -14,5 +14,7 @@
     <title>Wordpress custom theme</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
+
     <header>This is the header</header>
