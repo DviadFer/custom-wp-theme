@@ -7,16 +7,12 @@
  * @package Custom theme
  * 
  */
+
+get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
-</head>
-<body>
-    <main>Hello world!</main>
-</body>
-</html>
+<main class="content">
+    This is the main content
+</main>
+
+<?php get_footer();
