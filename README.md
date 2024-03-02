@@ -2,6 +2,8 @@
 
 Custom Theme is a WordPress custom theme designed to try stuff, offering a unique blend of flexibility and simplicity for developers and WordPress enthusiasts. This theme is perfect for experimenting with various design and functionality aspects of WordPress, making it an ideal sandbox for testing and learning.
 
+![Screenshot](screenshot.png)
+
 ## Features
 
 - **Sandbox Environment**: Designed specifically for testing and experimenting with WordPress functionalities.
