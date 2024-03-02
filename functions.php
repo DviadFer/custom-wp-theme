@@ -7,9 +7,14 @@
  */
 
  function custom_theme_scripts() {
-    wp_enqueue_style( 'main-styles', get_template_directory_uri() . '/style.css' );
+    //First we register assets for wp to recognize them
+    wp_register_style( 'main-styles', get_template_directory_uri() . '/style.css' );
+    wp_register_script( 'main-scripts', get_template_directory_uri() . '/assets/main.js' );
 
-    // More simple version: wp_enqueue_style( 'style-name', get_stylesheet_uri() );
+    //Then we enqueue when nedeed
+    wp_enqueue_style( 'main-styles' );
+    wp_enqueue_script( 'main-scripts' );
+
  }
 
  add_action( 'wp_enqueue_scripts', 'custom_theme_scripts' );
